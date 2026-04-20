@@ -1,0 +1,9 @@
+Dependencias (Arch):
+
+gcc 
+nasm 
+binutils 
+grub 
+qemu-system-x86 
+lib32-gcc-libs
+multilib-devel
