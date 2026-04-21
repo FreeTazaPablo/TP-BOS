@@ -1,6 +1,7 @@
 #include "vga.h"
 #include "keyboard.h"
 #include "fs.h"
+#include "fs_persist.h"
 #include "shell.h"
 
 static inline void outb(unsigned short port, unsigned char val) {
@@ -28,7 +29,7 @@ void kernel_main(unsigned long mb_magic, unsigned long mb_info) {
 
     vga_init();
     kb_init();
-    fs_init();
+    fs_load_from_disk();
 
     /* ── Banner de arranque ──────────────────────────────────────────────── */
     vga_print_color(
