@@ -1,4 +1,4 @@
-# TP-BOS
+# TP-BOS (TPBOS64)
 
 **Taza Pablo Boot Operating System** - sistema operativo de terminal inspirado en MS-DOS, escrito desde cero en C y Assembly (x86 y x86_64).
 
