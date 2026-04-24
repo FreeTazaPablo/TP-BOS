@@ -93,6 +93,7 @@ make clean-disk
 | **Misc** | |
 | `repeat [N] [cmd]` | Repetir un comando N veces |
 | `history` | Ver historial de comandos |
+| `date` | Ver la fecha actual |
 
 ---
 
